@@ -54,7 +54,6 @@ ggplot(data = africa) +
   annotate(geom = 'text', x = -7.5,   y = -17, label = "Improved",  size = 6, color = "#99FF00") +
   annotate(geom = 'text', x = -5,   y = -13, label = "Unimproved",  size = 6, color = "#FF3300") 
   
-  
   ggsave("africa_water_sources_map.png", width = 6, height = 6, dpi = "screen")
 
 
