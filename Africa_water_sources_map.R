@@ -1,7 +1,6 @@
 # Load libraries ____________________
 library(dplyr)
 library(rnaturalearth)
-library(rnaturalearthdata)
 library(ggspatial)
 library(ggplot2)
 
