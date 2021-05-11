@@ -35,7 +35,7 @@ ggplot(data = africa) +
   theme(legend.position = 'none') +
   ggtitle('Sources of water in Africa', 
           subtitle = paste0('Data from ', length(unique(water$country_name)), ' countries. About ', 
-                                                          round(nrow(water %>% filter(improved_source == "improved"))/nrow(water)*100,0), "% of sources are imporved")) +
+                                                          round(nrow(water %>% filter(improved_source == "improved"))/nrow(water)*100,0), "% of sources are improved")) +
   annotation_scale(location = 'bl', width_hint = 0.5) +
   labs(caption = "Data: waterpointdata.org | Visualization: @lukorir") +
   annotation_north_arrow(location = 'tr', which_north = 'true',
